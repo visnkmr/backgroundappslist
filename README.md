@@ -6,6 +6,5 @@ The latest version is available @
 
 [<img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-appstore-badge-english-white.png" data-canonical-src="" alt-text="" width="153" />](https://www.amazon.com/Background-Apps-and-Process-List/dp/B077LRPXZW)
 
-#Customer Care
-Help @ https://visnkmr.github.io/customercare.
-You can also list your issues on github.
+## Customer Care
+You can list your issues on github.
