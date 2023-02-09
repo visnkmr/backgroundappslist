@@ -20,7 +20,8 @@ Report Issues, Bugs, Feature Suggestion in github issues section [here](https://
 **Supports:**  
 ✓ Android Phones.  
 ✓ Tablets.  
-✓ Android TVs. (Remote Friendly)  
+✓ Chromebook, Windows Subsystem for android.  
+✓ Fire TVs, Smart TVs, Android TVs. (Remote Friendly)  
   
 *Force stop system app(s) only if you know what you are doing; be careful as it may affect your device adversely*  
   
@@ -28,5 +29,3 @@ Report Issues, Bugs, Feature Suggestion in github issues section [here](https://
 Closing an app implies that you are aware that all the background functionality (service, periodic task, event receiver, alarm, widget update, push message) of this app will not be functional until you/your action(s) open the app again.*  
   
 More info, help @ https://t.me/vishnunkmr  
-  
-**Libraries used: Firebase, Admob**
