@@ -3,6 +3,7 @@ name: Stale Issues and Pull Requests
 on:
   schedule:
     - cron: '0 0 * * *' # Runs every day at midnight UTC
+  push:
   # issues:
   #   types: [opened, reopened, edited]
 #   pull_request:
