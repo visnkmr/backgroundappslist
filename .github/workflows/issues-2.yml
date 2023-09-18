@@ -1,0 +1,29 @@
+name: Stale Issues and Pull Requests
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  # issues:
+  #   types: [opened, reopened, edited]
+#   pull_request:
+#     types: [opened, reopened, edited]
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stale action
+        uses: actions/stale@v8
+        with:
+          stale-issue-message: 'This issue has been closed because it has been inactive for 7 days. Please feel free to reopen if you are still experiencing this problem.'
+          stale-pr-message: 'This pull request has been closed because it has been inactive for 7 days. Please feel free to reopen if you are still interested in contributing.'
+          days-before-stale: 60
+          days-before-close: 7
+          stale-issue-label: 'no-issue-activity'
+          stale-pr-label: 'no-pr-activity'
+          exempt-issue-labels: 'keep open'
+          exempt-pr-labels: 'keep open'
+          exempt-milestone: 'upcoming release'
+          exempt-assignees: 'octocat'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
