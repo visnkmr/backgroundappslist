@@ -1,3 +1,5 @@
+[![](https://data.jsdelivr.com/v1/package/gh/visnkmr/backgroundappslist/badge)](https://www.jsdelivr.com/package/gh/visnkmr/backgroundappslist)
+
 [![Github All Releases](https://img.shields.io/github/downloads/visnkmr/backgroundappslist/total.svg)]()  
 Report Issues, Bugs, Feature Suggestion in github issues section [here](https://github.com/visnkmr/backgroundappslist/issues)
 
